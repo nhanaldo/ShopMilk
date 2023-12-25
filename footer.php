@@ -36,19 +36,7 @@
                     <li><a href="http://">Media Contact</a></li>
                 </ul>
             </div>
-            <div class="payment">
-                <p>PAYMENT</p>
-                <div class="bank">
-                    <img src="anh/logo-mb-bank.png" alt="Mbbank">
-                    <img src="anh/XPagribank-1280x720-removebg-preview.png" alt="arg">
-                    <img src="anh/XP_vcb-logo-removebg-preview.png" alt="VCB">
-                </div>
-                <div class="bank1">
-                    <img src="anh/XPlogo-vietinbank.png" alt="VTB">
-                    <img src="anh/XP_logo-techcombank-removebg-preview.png" alt="Tech">
-                    <img src="anh/BIDV-Logo.png" alt="BIDV">
-                </div>
-            </div>
+            
             <div class="follow">
                 <p>FOLLOW ME</p>
                 <div class="icon">

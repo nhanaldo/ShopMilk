@@ -94,8 +94,8 @@
 
 }
 .form input[type="text"],input[type="password"],input[type="email"] {
-    margin-left: -9px;
-    width: 110%;
+    margin: auto;
+    width: 280px;
     background: white;
     border: none;
     padding: 16px 15px;
@@ -104,44 +104,9 @@
     box-shadow: #323638 0px 10px 10px -5px;
     border-inline: 2px solid transparent;
 }
-.form input:focus {
-    outline: none;
-    border-inline: 5px solid #05d32e;
-  }
-input::placeholder {
-    color: rgb(170, 170, 170);
-}
-.form .forgot-password {
-    display: block;
-    margin-top: 14px;
-    margin-left: 1px;
-}
-.form .forgot-password a {
-    font-size: 14px;
-    color: #c70a0a;
-    text-decoration: none;
-}
-.form input[type="submit"]{
-    font-size: 18px;
-    display: block;
-    width: 90%;
-    font-weight: bold;
-    background-color: bisque;
-    color: rgb(72, 207, 0);
-    padding: 15px;
-    margin: 20px auto;
-    border-radius: 20px;
-    margin-left: 21px;
-    box-shadow: 0px 18px 15px -15px;
-    border: none;
-    cursor:pointer;
-    transition: 0.5s;
-}
-.form input[type="submit"]:hover {
-    transition: 0.5s;
-    transform: scale(1.03);
-    box-shadow:  0px 23px 10px -20px yellow;
-}
+
+
+
 .agreement {
     padding-left: 30px;
     display: flex;
@@ -161,20 +126,14 @@ input::placeholder {
 .agreement a:hover{
     color: red;
 }
-footer{
-    width: 1519px;
-    height: 488px;
-}
+
 .footer{
-    align-items: flex-start;
     display: flex;
     width: 100%;
-    gap: 26px;
     font-size: 14px;
-    line-height: 16.8px;
 }
 .customer{
-    width: 250px;
+    width: 33.33333%;
     height: 379px;
     margin-left: 100px;
 }
@@ -241,9 +200,9 @@ footer{
     transition: 0.5s;
 }
 .payment{
-    width: 250px;
+    width: 33.333333%;
     height: 379px;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 .payment p{
     padding-left: 50px;
@@ -262,9 +221,9 @@ footer{
     padding-top: 20px;
 }
 .follow{
-    width: 250px;
+    width:33.3333333%;
     height: 379px;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 .follow p{
     padding-left: 50px;
@@ -296,23 +255,7 @@ footer{
     padding-top: 15px;
     padding-left: 15px;
 }
-hr{
-    margin-left: 150px;
-    width: 1220px;
-    border: 1px solid #a09f9f;
-}
-.footer2{
-    margin-top: 15px;
-    display: flex;
-    gap: 335px;
-}
-.footer2 p{
-    padding-top: 25px;
-    font-size: 15px;
-    margin-left: 150px;
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
-    color: #a09f9f;
-}
+
 .contry{
     display: flex;
     gap: 5px;
@@ -408,20 +351,10 @@ hr{
     margin-left: 200px;
     box-shadow: rgba(80, 193, 245, 0.878) 0px 30px 30px -20px;
 }
-.form input[type="text"], input[type="password"] {
-    margin-left: -18px;
-    width: 56%;
-    background: white;
-    border: none;
-    padding: 16px 15px;
-    border-radius: 20px;
-    margin-top: 18px;
-    box-shadow: #323638 0px 10px 10px -5px;
-    border-inline: 2px solid transparent;
-}
+
 .form input:focus {
     outline: none;
-    border-inline: 5px solid #05d32e;
+    border-inline: 3px solid #000;
   }
 .form .forgot-password a {
     font-size: 14px;
@@ -435,9 +368,10 @@ hr{
 
 }
 .form input[type="submit"] {
+    align-items: center;
     font-size: 18px;
+    width: 250px;
     display: block;
-    width: 45%;
     font-weight: bold;
     background-color: bisque;
     color: rgb(72, 207, 0);
@@ -451,51 +385,6 @@ hr{
 }
 
 
-footer{
-    width: 1519px;
-    height: 488px;
-}
-.footer{
-    align-items: flex-start;
-    display: flex;
-    width: 100%;
-    gap: 26px;
-    font-size: 14px;
-    line-height: 16.8px;
-}
-.customer{
-    width: 250px;
-    height: 379px;
-    margin-left: 100px;
-}
-.customer p{
-    padding-left: 50px;
-    color:#000000;
-    font-size:12px;
-    font-weight:700;
-    line-height:14.4px;
-    margin:40px 0px 20px;
-}
-.customer ul{
-    list-style: none;
-    padding-left: 50px;
-    width: 240px;
-    height: 278px;
-    line-height: 31.8px;
-    font-size: 14px;
-    margin: 0 0 16px;
-}
-.customer a{
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
-    text-decoration: none;
-    text-align: left;
-    color: #a09f9f;
-    font-size: 13px;
-}
-.customer a:hover{
-    color: red;
-    transition: 0.s;
-}
 .aboutShop{
     width: 250px;
     height: 379px;
@@ -530,78 +419,22 @@ footer{
     color: red;
     transition: 0.5s;
 }
-.payment{
-    width: 250px;
-    height: 379px;
-    margin-left: 100px;
-}
-.payment p{
-    padding-left: 50px;
-    color:#000000;
-    font-size:12px;
-    font-weight:700;
-    line-height:14.4px;
-    margin:40px 0px 20px;
-}
-.payment img{
-    padding-left: 7px;
-    height: 34px;
-    width: 77px;
-}
-.payment .bank1, .bank{
-    padding-top: 20px;
-}
-.follow{
-    width: 250px;
-    height: 379px;
-    margin-left: 100px;
-}
-.follow p{
-    padding-left: 50px;
-    color:#000000;
-    font-size:12px;
-    font-weight:700;
-    line-height:14.4px;
-    margin:40px 0px 20px;
-}
-.follow .icon ul li{
-    padding-top: 15px;
-    height: 44px;
-    width: 227px;
-    font-size: 15px;
-    list-style: none;
-}
-.follow .icon a{
-    width: 150px;
-    color: #a09f9f;
-    text-decoration: none;
-    margin-left: 48px;
-}
-.follow .icon a:hover{
-    color: red;
-    transition: 1s;
-}
-.follow .icon span{
-    text-align: start;
-    padding-top: 15px;
-    padding-left: 15px;
-}
+
+
 hr{
-    margin-left: 150px;
-    width: 1220px;
-    border: 1px solid #a09f9f;
+    border: 1px solid #ccc;
 }
 .footer2{
     margin-top: 15px;
     display: flex;
-    gap: 335px;
+    margin-bottom: 30px;
 }
-.footer2 p{
+.text{
     padding-top: 25px;
     font-size: 15px;
     margin-left: 150px;
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
-    color: #a09f9f;
+
 }
 .contry{
     display: flex;

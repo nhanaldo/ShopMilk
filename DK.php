@@ -12,7 +12,6 @@
     <link rel="icon" href="anh/milk.png">
     <script src="https://kit.fontawesome.com/10dfeb6bc7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assert/font/themify-icons/themify-icons.css">
-    
     <link rel="stylesheet" href="Dk.css">
 
 </head>
@@ -38,7 +37,6 @@
     ?>
     <div class="Logo_chinh">
         <img src="anh/LOGOO_chinh.png" alt="logo"><span>MILK</span>
-        <p>Need help?</p>
     </div>
     <div class="body">
         <div class="Logo">
@@ -56,7 +54,7 @@
             </form>
         </div>
     </div>
-    <footer>
+    <div>
         <div class="footer">
             <div class="customer">
                 <p>CUSTOMER SERVICE</p>
@@ -70,24 +68,12 @@
                     <li><a href="http://">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="aboutShop">
-                <p>ABOUT SHOPPE</p>
-                <ul>
-                    <li><a href="http://">About Us</a></li>
-                    <li><a href="http://">Shopee Blog</a></li>
-                    <li><a href="http://">Shopee Careers</a></li>
-                    <li><a href="http://">Privacy Policy</a></li>
-                    <li><a href="http://">Seller Centre</a></li>
-                    <li><a href="http://">Flash Deals</a></li>
-                    <li><a href="http://">Media Contact</a></li>
-                </ul>
-            </div>
             <div class="payment">
                 <p>PAYMENT</p>
                 <div class="bank">
-                    <img src="anh/logo-mb-bank.png" alt="Mbbank">
+                    <a href="#"><img src="anh/logo-mb-bank.png" alt="Mbbank"></a>
                     <img src="anh/logoArg.webp" alt="arg">
-                    <img src="anh/vcb-logo.jpg" alt="VCB">
+                    <a href="#"><img src="anh/vcb-logo.jpg" alt="VCB"></a>
                 </div>
                 <div class="bank1">
                     <img src="anh/logo-vietinbank.png" alt="VTB">
@@ -112,17 +98,17 @@
             <hr>
         </div>
         <div class="footer2">
-            <p>2023 MILK All Rights Reserved .</p>
+            <b class="text">2023 MILK All Rights Reserved .</b>
             <ul class="contry">
-                <p>Country & Region:</p>
-                <li><a href="http://">VietNam |</a></li>
-                <li><a href="http://">Singapo |</a></li>
-                <li><a href="http://">ThaiLand |</a></li>
-                <li><a href="http://">TaiWan |</a></li>
-                <li><a href="http://">Indonesia |</a></li>
-                <li><a href="http://">Campuchia </a></li>
+                <b class="text">Country & Region:</b>
+                <li><b >VietNam |</b></li>
+                <li><b >Singapo |</b></li>
+                <li><b >ThaiLand |</b></li>
+                <li><b >TaiWan |</b></li>
+                <li><b >Indonesia |</b></li>
+                <li><b >Campuchia </b></li>
             </ul>
         </div>
-    </footer>
+    </div>
 </body>
 </html>
