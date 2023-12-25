@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    margin-top: 100px;
+    background-color: orange;
+    height: 550px;
+    display: grid;
+    align-items: center;
+}
+.Logo_chinh{
+    display: flex;
+    gap: 900px;
+    position: absolute;
+    top: 10px;
+}
+.Logo_chinh span{
+    position: absolute;
+    top: 21px;
+    left: 330px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Logo_chinh img{
+    margin-left: 190px;
+    border-radius: 50px;
+    width: 120px;
+    height: 85px;
+}
+.Logo_chinh p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: red;
+}
+.Logo{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 180px;
+    left: 200px;
+}
+.Logo img{
+    margin-top: 5px;
+    padding-top: 2px;
+    height: 243px;
+    width: 267px;
+    border-radius: 142px;
+}
+.Logo p{
+    margin-left: -96px;
+    padding-top: 50px;
+    font-size: 31px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    background-image: url(anh/backgrounDN.jpg);
+    background-size: cover;
+    max-width: 350px;
+    height: 430px;
+    border-radius: 40px;
+    padding: 18px 30px;
+    border: 5px solid rgb(255, 255, 255);
+    margin-left: 860px;
+    margin-top: -10px;
+    box-shadow: rgba(80, 193, 245, 0.878) 0px 30px 30px -20px;
+}
+.SignIn {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(16, 137, 211);
+}
+.SignIn img{
+    width: 55px;
+    height: 50px;
+    border-radius: 50px;
+    padding-left: -15px;
+}
+.form {
+    margin-top: 6px;
+
+}
+.form input[type="text"],input[type="password"] {
+    margin-left: -9px;
+    width: 110%;
+    background: white;
+    border: none;
+    padding: 16px 15px;
+    border-radius: 20px;
+    margin-top: 18px;
+    box-shadow: #323638 0px 10px 10px -5px;
+    border-inline: 2px solid transparent;
+}
+.form input:focus {
+    outline: none;
+    border-inline: 5px solid #05d32e;
+  }
+input::placeholder {
+    color: rgb(170, 170, 170);
+}
+.form .forgot-password {
+    display: block;
+    margin-top: 14px;
+    margin-left: 1px;
+}
+.form .forgot-password a {
+    font-size: 14px;
+    color: #c70a0a;
+    text-decoration: none;
+}
+.form input[type="submit"]{
+    font-size: 18px;
+    display: block;
+    width: 90%;
+    font-weight: bold;
+    background-color: bisque;
+    color: rgb(72, 207, 0);
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    margin-left: 21px;
+    box-shadow: 0px 18px 15px -15px;
+    border: none;
+    cursor:pointer;
+}
+.form input[type="submit"]:hover {
+    transform: scale(1.03);
+    box-shadow:  0px 23px 10px -20px yellow;
+}
+.agreement {
+    padding-left: 30px;
+    display: flex;
+    text-align: center;
+    margin-top: 35px;
+    gap: 10px;
+}
+.agreement p{
+    color: rgb(244, 138, 0);
+    font-size: 16px;
+}
+.agreement a {
+    text-decoration: none;
+    color: #1c8aea;
+    font-size: 15px;
+}
+.agreement a:hover{
+    color: red;
+}
+footer{
+    width: 1519px;
+    height: 488px;
+}
+.footer{
+    align-items: flex-start;
+    display: flex;
+    width: 100%;
+    gap: 26px;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+.customer{
+    width: 250px;
+    height: 379px;
+    margin-left: 100px;
+}
+.customer p{
+    padding-left: 50px;
+    color:#000000;
+    font-size:12px;
+    font-weight:700;
+    line-height:14.4px;
+    margin:40px 0px 20px;
+}
+.customer ul{
+    list-style: none;
+    padding-left: 50px;
+    width: 240px;
+    height: 278px;
+    line-height: 31.8px;
+    font-size: 14px;
+    margin: 0 0 16px;
+}
+.customer a{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    text-decoration: none;
+    text-align: left;
+    color: #a09f9f;
+    font-size: 13px;
+}
+.customer a:hover{
+    color: red;
+    transition: 0.s;
+}
+.aboutShop{
+    width: 250px;
+    height: 379px;
+
+    margin-left: 100px;
+}
+.aboutShop p{
+    padding-left: 50px;
+    color:#000000;
+    font-size:12px;
+    font-weight:700;
+    line-height:14.4px;
+    margin:40px 0px 20px;
+}
+.aboutShop ul{
+    list-style: none;
+    padding-left: 50px;
+    width: 240px;
+    height: 278px;
+    line-height: 31.8px;
+    font-size: 14px;
+    margin: 0 0 16px;
+}
+.aboutShop a{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    text-decoration: none;
+    text-align: left;
+    color: #a09f9f;
+    font-size: 13px;
+}
+.aboutShop a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.payment{
+    width: 250px;
+    height: 379px;
+    margin-left: 100px;
+}
+.payment p{
+    padding-left: 50px;
+    color:#000000;
+    font-size:12px;
+    font-weight:700;
+    line-height:14.4px;
+    margin:40px 0px 20px;
+}
+.payment img{
+    padding-left: 7px;
+    height: 34px;
+    width: 77px;
+}
+.payment .bank1, .bank{
+    padding-top: 20px;
+}
+.follow{
+    width: 250px;
+    height: 379px;
+    margin-left: 100px;
+}
+.follow p{
+    padding-left: 50px;
+    color:#000000;
+    font-size:12px;
+    font-weight:700;
+    line-height:14.4px;
+    margin:40px 0px 20px;
+}
+.follow .icon ul li{
+    padding-top: 15px;
+    height: 44px;
+    width: 227px;
+    font-size: 15px;
+    list-style: none;
+}
+.follow .icon a{
+    width: 150px;
+    color: #a09f9f;
+    text-decoration: none;
+    margin-left: 48px;
+}
+.follow .icon a:hover{
+    color: red;
+    transition: 1s;
+}
+.follow .icon span{
+    text-align: start;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+hr{
+    margin-left: 150px;
+    width: 1220px;
+    border: 1px solid #a09f9f;
+}
+.footer2{
+    margin-top: 15px;
+    display: flex;
+    gap: 335px;
+}
+.footer2 p{
+    padding-top: 25px;
+    font-size: 15px;
+    margin-left: 150px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    color: #a09f9f;
+}
+.contry{
+    display: flex;
+    gap: 5px;
+}
+.contry li{
+    padding-top: 25px;
+    list-style: none;
+}
+.contry a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #a09f9f;
+}
+.contry a:hover{
+    color: red;
+    transition: 0.5s;
+}

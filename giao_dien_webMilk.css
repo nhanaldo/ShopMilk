@@ -1,0 +1,883 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebedf2;
+}
+.head{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(244, 159, 0, 0.615);
+}
+.head .head1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.head .head1 .head11 ul{
+    display: flex;
+    gap: 10px;
+    margin-left: 60px;
+    margin-top: 10px;
+    list-style: none;
+
+}
+.head .head1 .head11 ul li a{
+    padding-left: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    /* color: rgb(255, 145, 0); */
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.head .head1 .head11 ul li a:hover{
+    color: rgb(1, 1, 2);
+}
+.head .head1 .head12 ul{
+    display: flex;
+    gap: 10px;
+    margin-right:60px;
+    margin-top: 10px;
+    list-style: none;
+    text-indent: 9px;
+}
+.head .head1 .head12 ul li a{
+    padding-left: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    /* color: rgb(255, 145, 0); */
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.head .head1 .head12 ul li a:hover{
+    color: rgb(1, 1, 2);
+}
+.head .head1 .head12 ul li select{
+    border: none;
+    background-color:transparent;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.head .head1 .head12 ul li select option{
+    color: black;
+    background-color: rgb(242, 242, 242);
+}
+.head .head1 .head12 ul li select:hover{
+    color: rgb(1, 1, 2);
+}
+.head .head2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    
+}
+.head .head2 .headLogo{
+    display: flex;
+    gap:20px;
+}
+.head .head2 .headLogo img{
+    width: 110px;
+    height: 105px;
+    margin-left: 51px;
+    margin-top: -15px;
+}
+.head .head2 .headLogo h2{
+    margin-left: -15px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head .head2 .headSearch input[type="search"]{
+    margin-top: 15px;
+    height: 37px;
+    width: 654px;
+    border: none;
+    font-size: 15px;
+    margin-left: -108px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    outline: none;
+}
+.head .head2 .headSearch  i{
+    padding-top: 6px;
+    margin-top: -24px;
+    position: absolute;
+    right: 403px;
+    top: 89px;
+    padding-left: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+}
+.head .head2 .headCart{ 
+  margin-right: 200px;
+  margin-top: 15px;
+  z-index: 2;
+}
+.head .head2 .headCart i{
+    position: absolute;
+    top: 63px;
+    right: 73px;
+}
+.head .head2 .headCart .cartlist{
+    position: absolute;
+    top: 110px;
+    right: 14px;
+    height: 305px;
+    width: 459px;
+    background-color: white;
+    padding: 5px;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+}
+.head .head2 .headCart .triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 94px;
+    right: 63px;
+    border-left: 15px solid transparent;
+    border-right: 17px solid transparent;
+    border-bottom: 19px solid white;
+    display: none;
+    
+}
+.head .head2 .headCart:hover .triangle{
+    display: block;
+}
+.head .head2 .headCart:hover .cartlist {
+    display: block;
+}
+.head .head2 .headCart .cartlist .cartlistHeard{
+    background-color: #eadac552;
+    height: 40px;
+    width: 100%;
+    margin-top: 4px;
+}
+.head .head2 .headCart .cartlist .SP{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+.head .head2 .headCart .cartlist .SP .imgSua{
+    width: 50px;
+    height: 50px;
+}
+.head .head2 .headCart .cartlist .cartlistHeard p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: rgb(204, 195, 195);
+}
+.head .head2 .headCart .cartlist .SP .btnDelete button{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    background-color: rgb(239 167 73 / 86%);
+    width: 75px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 1px solid rgba(249, 182, 94, 0.86);
+    border-radius: 3px;
+}
+.head .head2 .headCart .cartlist .SP .btnDelete  button:hover{
+    color: white;
+    background-color: red;
+}
+
+.head .head2 .headCart .Clickcart button:hover{
+    background-color: red;
+    color: white;
+}
+.head .head2 .headCart .Clickcart button{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    background-color: rgb(255, 181, 45);
+    width: 115px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 1px solid rgba(249, 182, 94, 0.86);
+    margin-left: 333px;
+    border-radius: 3px;
+}
+.main{
+    width: 100%;
+    /* height: 1500px; */
+    padding: 10px;
+}
+.main .menu{
+    margin-top: 5px;
+    margin-left: 400px;
+    height: 100px;
+    width: 70%;
+    padding: 5px 0;
+    z-index: 1;
+}
+.main .menu ul li{
+    list-style: none;
+    display: inline-block; 
+    width: 200px;
+    height: 50px;
+    margin-left: 25px;
+    padding: 7px 0;
+    border-radius: 3px; 
+    transition: 0.5s;
+    position: relative;
+    background-color: #f74150;
+    z-index: 1;
+}
+.main .menu ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding-top: 9px;
+    padding-left: 40px;
+    font-size: 17px;
+}
+.main .menu ul li:hover{
+    /* background: rgb(225, 78, 248); */
+    opacity: 0.8;
+}
+.main .menu ul li:hover a{
+    color: aliceblue;
+}
+/* MenuLoaiSua */
+.main .menu ul li .menu2{
+    position: absolute;
+    top: 90%;
+    left: 20px;
+    background: none;
+    padding: 5px;
+    display: none;
+}
+.main .menu ul li .menu2 ul li{
+    width: 180px;
+    height: 40px;
+    margin-left: -5px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0;
+    font-size: 18px;
+    background: #e9e9e9;
+}
+.main .menu ul li .menu2 ul li a{
+    margin-left: -27px;
+    margin-top: -6px;
+    color: black;
+    font-size: 17px; 
+}
+.main .menu ul li .menu2 ul li:hover a{
+    color: rgb(0, 0, 0);
+}
+.main .menu ul li .menu2 ul li:hover{
+    background-color: rgb(235, 166, 223);
+    opacity: 1;
+}
+.main .menu ul li .menu2 ul li:last-child{
+    border-bottom: none;
+}
+.main .menu ul li:hover .menu2{
+    display: block;
+}
+/* MenuHangSua */
+.main .menu ul li .menu3{
+    position: absolute;
+    top: 90%;
+    left: 20px;
+    background: rgb(233, 23, 16);
+    background: none;
+    padding: 5px;
+    display: none;
+}
+.main .menu ul li .menu3 ul li{
+    width: 180px;
+    height: 40px;
+    margin-left: -5px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0;
+    font-size: 18px;
+    background: #e9e9e9;
+}
+.main .menu ul li .menu3 ul li a{
+    margin-left: -27px;
+    margin-top: -6px;
+    color: black;
+    font-size: 17px;
+}
+.main .menu ul li .menu3 ul li:hover a{
+    color: rgb(0, 0, 0);
+}
+.main .menu ul li .menu3 ul li:hover{
+    background-color: rgb(235, 166, 223);
+    opacity: 1;
+}
+.main .menu ul li .menu3 ul li:last-child{
+    border-bottom: none;
+}
+.main .menu ul li:hover .menu3{
+    display: block;
+}
+/* //menuHuongvi */
+.main .menu ul li .menu4{
+    position: absolute;
+    top: 90%;
+    left: 20px;
+    background: rgb(233, 23, 16);
+    background: none;
+    padding: 5px;
+    display: none;
+}
+.main .menu ul li .menu4 ul li{
+    width: 180px;
+    height: 40px;
+    margin-left: -5px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0;
+    font-size: 18px;
+    background: #e9e9e9;
+}
+.main .menu ul li .menu4 ul li a{
+    margin-left: -27px;
+    margin-top: -6px;
+    color: black;
+    font-size: 17px;
+}
+.main .menu ul li .menu4 ul li:hover a{
+    color: rgb(0, 0, 0);
+}
+.main .menu ul li .menu4 ul li:hover{
+    background-color: rgb(235, 166, 223);
+    opacity: 1;
+}
+.main .menu ul li .menu4 ul li:last-child{
+    border-bottom: none;
+}
+.main .menu ul li:hover .menu4{
+    display: block;
+}
+.main .content .center{
+    margin-top: -39px;
+    width: 100%;
+    height: 230px;
+}
+.slideshow {
+    position: relative;
+    height: 237px;
+    width:78%;
+    overflow: hidden;
+    /* margin-top: 10px; */
+    /* margin-left: 30px; */
+    top: 0;
+    left: 325px;
+    /* display: none; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+  }
+  .slideshow-image {
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: slideshow 15s infinite;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    border-radius: 10px;
+    z-index: -1;
+  }
+  
+  .slideshow-image:nth-child(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  
+  .slideshow-image:nth-child(2) {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+  }
+  
+  .slideshow-image:nth-child(3) {
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+  }
+  
+  @keyframes slideshow {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+.main .content .content2{
+    display: flex;
+    gap: 50px;
+}
+.main .content .content2 .left{
+    width: 300px;
+    height: 760px;
+    background-color: rgba(244, 159, 0, 0.344);
+    margin-top: -287px;
+    margin-left: 2px;
+}
+.main .content .content2 .left h2{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main .content .content2 .left .TTMilk p{
+    border-bottom: 1px solid gray;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 18px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: orangered;
+}
+.main .content .content2 .left .TTMilk ul li{
+    list-style: none;
+    padding-left: 20px;
+    line-height: 23px;
+    padding-top: 8px;
+    border-bottom: 1px solid gray;
+    width: 300px;
+}
+.main .content .content2 .left .TTMilk  ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.main .content .content2 .left .TTMilk  ul li a:hover{
+    color: rgb(235, 142, 43);
+}
+.main .content .content2 .left .HMilk p{
+    border-bottom: 1px solid gray;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 18px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: orangered;
+}
+.main .content .content2 .left .HMilk ul li{
+    list-style: none;
+    padding-left: 20px;
+    line-height: 23px;
+    padding-top: 8px;
+    border-bottom: 1px solid gray;
+    width: 300px;
+}
+.main .content .content2 .left .HMilk  ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.main .content .content2 .left .HMilk  ul li a:hover{
+    color: rgb(235, 142, 43);
+}
+/* Hv */
+.main .content .content2 .left .HVMilk p{
+    border-bottom: 1px solid gray;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 18px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: orangered;
+}
+.main .content .content2 .left .HVMilk ul li{
+    list-style: none;
+    padding-left: 20px;
+    line-height: 23px;
+    padding-top: 8px;
+    border-bottom: 1px solid gray;
+    width: 300px;
+}
+.main .content .content2 .left .HVMilk ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.main .content .content2 .left .HVMilk ul li a:hover{
+    color: rgb(235, 142, 43);
+}
+.main .content .content2 .left .price p{
+    border-bottom: 1px solid gray;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 18px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: orangered;
+}
+.main .content .content2 .left .price li{
+    list-style: none;
+    padding-left: 20px;
+    line-height: 23px;
+    padding-top: 8px;
+}
+.main .content .content2 .left .price  ul li a{
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.main .content .content2 .left .price .price1{
+    position: absolute;
+    left: 150px;
+}
+
+.main .content .content2 .left .sale img{
+    width: 358px;
+    height: 550px;
+    margin-left: -33px;
+    margin-top: 6px;
+}
+.main .content .content2 .right{
+    width: 100%;
+    margin-top: 29px;
+    display: block;
+    margin-left: -20px;
+}
+.main .content .content2 .right .directory a{
+    text-decoration: none;
+}
+.main .content .content2 .right .directory span{
+    padding-left: 9px;
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: text-animation 3s infinite;
+}
+@keyframes text-animation {
+    0% { color:#4B0082 }
+    50% { color: blue; }
+    70% { color: #F9AD6A; }
+    100% { color: rgb(0, 255, 38); }
+  }
+.main .content .content2 .right .list_items {
+    /* width: 100%;
+    height: 350px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px ;
+}
+.main .content .content2 .right .list_items .product_item{
+   /* border: 1px solid black; */
+   width: 250px;
+   height:340px;
+   transition: 0.8s;
+   margin-top: 20px;
+   margin-left: 10px;
+   padding: 5px;
+   margin:  15px;
+}
+.main .content .content2 .right .list_items .product_item:hover{
+    transition: 0.9s;
+    transform: translateY(-8px);
+    box-shadow: 0px 5px 15px rgba(159, 161, 160, 0.97);
+}
+.main .content .content2 .right .list_items .product_item img{
+    
+    width: 200px;
+    height: 180px;
+    display: grid;
+    margin: auto;
+    margin-top: 20px;
+    transition: 0.9s;
+}
+.main .content .content2 .right .list_items .product_item h3{
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100; 
+    text-align: center;
+}
+.main .content .content2 .right .list_items .product_item p{
+    padding-left: 59px;
+    padding-top: 8px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600; 
+}
+ .main .content .content2 .right .list_items .product_item img:hover{
+    transform: translateY(-6px);
+    transition: 0.9s;
+}
+
+.main .content .content2 .right .list_items .product_item button {
+    width: 130px;
+    margin-top: 13px;
+    margin-left: 59px;
+    height: 30px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(40, 40, 40, 0.303);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main .content .content2 .right .list_items .product_item button:hover {
+    cursor: pointer;
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.main .content .content2 .right .list_items .product_item button:active {
+    transform: translateY(-1px);
+}
+.main .content .content2 .right .phantrang{
+    width: 350px;
+    height: 59px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.main .content .content2 .right  .phantrang ul {
+    display: flex;
+    gap: 25px;
+}
+.main .content .content2 .right .phantrang ul li{
+    list-style: none;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0eeaeec5;
+}
+.main .content .content2 .right  .phantrang ul li:hover{
+    background-color: rgb(4, 4, 3);
+}
+.main .content .page {
+    text-align: center;
+    margin-top: 20px;
+}
+.main .content .page ul{
+    list-style: none;
+}
+.main .content .page li{
+    display: inline-block;
+    padding: 8px;
+    background-color: #ccc;
+    margin: 0 5px;
+}
+
+.main .content .page li.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer{
+    width: 1519px;
+    height: 488px;
+    background-color: rgba(244, 159, 0, 0.514);
+}
+.footer{
+    align-items: flex-start;
+    display: flex;
+    width: 100%;
+    gap: 26px;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+.customer{
+    width: 250px;
+    height: 379px;
+    margin-left: 100px;
+}
+.customer p{
+    padding-left: 50px;
+    color:#000000;
+    font-size:12px;
+    font-weight:700;
+    line-height:14.4px;
+    margin:40px 0px 20px;
+}
+.customer ul{
+    list-style: none;
+    padding-left: 50px;
+    width: 240px;
+    height: 278px;
+    line-height: 31.8px;
+    font-size: 14px;
+    margin: 0 0 16px;
+}
+.customer a{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    text-decoration: none;
+    text-align: left;
+    color: #4c4949cf;
+    font-size: 13px;
+}
+.customer a:hover{
+    color: red;
+    transition: 0.s;
+}
+.aboutShop{
+    width: 250px;
+    height: 379px;
+
+    margin-left: 100px;
+}
+.aboutShop p{
+    padding-left: 50px;
+    color:#000000;
+    font-size:12px;
+    font-weight:700;
+    line-height:14.4px;
+    margin:40px 0px 20px;
+}
+.aboutShop ul{
+    list-style: none;
+    padding-left: 50px;
+    width: 240px;
+    height: 278px;
+    line-height: 31.8px;
+    font-size: 14px;
+    margin: 0 0 16px;
+}
+.aboutShop a{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    text-decoration: none;
+    text-align: left;
+    color: #4c4949cf;
+    font-size: 13px;
+}
+.aboutShop a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.payment{
+    width: 250px;
+    height: 379px;
+    margin-left: 100px;
+}
+.payment p{
+    padding-left: 50px;
+    color:#000000;
+    font-size:12px;
+    font-weight:700;
+    line-height:14.4px;
+    margin:40px 0px 20px;
+}
+.payment img{
+    padding-left: 7px;
+    height: 34px;
+    width: 77px;
+}
+.payment .bank1, .bank{
+    padding-top: 20px;
+}
+.follow{
+    width: 250px;
+    height: 379px;
+    margin-left: 100px;
+}
+.follow p{
+    padding-left: 50px;
+    color:#000000;
+    font-size:12px;
+    font-weight:700;
+    line-height:14.4px;
+    margin:40px 0px 20px;
+}
+.follow .icon ul li{
+    padding-top: 15px;
+    height: 44px;
+    width: 227px;
+    font-size: 15px;
+    list-style: none;
+}
+.follow .icon a{
+    width: 150px;
+    color: #4c4949cf;
+    text-decoration: none;
+    margin-left: 48px;
+}
+.follow .icon a:hover{
+    color: red;
+    transition: 1s;
+}
+.follow .icon span{
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+hr{
+    margin-left: 150px;
+    width: 1220px;
+    border: 1px solid #a09f9f;
+}
+.footer2{
+    margin-top: 15px;
+    display: flex;
+    gap: 335px;
+}
+.footer2 p{
+    padding-top: 25px;
+    font-size: 15px;
+    margin-left: 150px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    color: #4c4949cf;
+}
+.contry{
+    display: flex;
+    gap: 5px;
+}
+.contry li{
+    padding-top: 25px;
+    list-style: none;
+}
+.contry a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #4c4949cf;
+}
+.contry a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.img-list {
+    display: flex;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
